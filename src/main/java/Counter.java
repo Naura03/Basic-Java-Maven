@@ -13,7 +13,7 @@ public class Counter {
 	}
 	
 	public void increment() {
-		count += 2;  // SALAH! harusnya count++
+		count++;  // BENAR ✅
 	}
 	
 	public void decrement() {
